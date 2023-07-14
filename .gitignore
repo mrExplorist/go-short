@@ -1,0 +1,50 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go binaries
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go build cache and test binaries
+*.test
+*.prof
+*.out
+
+# Go coverage files
+*.cover
+
+# Dependency directories
+vendor/
+go.sum
+/go.mod
+
+# IDE-specific files and directories
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
